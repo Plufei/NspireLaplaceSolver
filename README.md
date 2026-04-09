@@ -54,3 +54,19 @@ Solves highly complex laplace transformations, Impulse, RLC problems, exponentia
 Use of the script varies depending on the selected function.
 
 Use is largely self-explanatory.
+
+**laplacespecial.py, impulsesolver**
+
+Select mode 5.
+
+For a problem in the form
+
+y'' + ω²y = A δ(t − a)
+
+Solution will be outputted stepwise.
+
+**impulseode.py, impulseodesolver**
+
+Capable of solving complicated ODE impulse problems.
+
+Solution will be outputted stepwise.
